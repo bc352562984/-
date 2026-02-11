@@ -54,3 +54,9 @@ python step4_keyword.py --overwrite
 PDF_DIR_OVERRIDE = Path(r"D:\cninfo_pdfs")
 ```
 把 PDF 放到大盘。
+##一个问题如果想迁移到别的电脑上执行第四步
+👉 第四步（step4）找 PDF，是通过
+pdf_download_success.csv 里的 pdf_path 列
+
+👉 前三部执行完之后再改config.py应该是没用的
+只能批量替换一下pdf_download_success.csv中pdf_path的路径
